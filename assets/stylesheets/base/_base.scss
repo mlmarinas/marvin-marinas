@@ -7,6 +7,12 @@
  */
 html {
   box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+    background: #fff;
+    background-image: url(/public/images/background.png);
 }
 
 /**
@@ -24,12 +30,4 @@ html {
 /**
  * Basic styles for links
  */
-a {
-  color: $brand-color;
-  text-decoration: none;
 
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
-  }
-}

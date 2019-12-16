@@ -8,7 +8,7 @@ const gulp = require('gulp'),
 
 
 const mainScssFile = './assets/stylesheets/main.scss',
-    cssDestinationFolder = './assets/stylesheets/';
+    cssDestinationFolder = './public/css/';
 
 gulp.task('styles', function () {
     return gulp.src(mainScssFile)
