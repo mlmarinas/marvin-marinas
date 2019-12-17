@@ -11,8 +11,8 @@ html {
 }
 
 body {
-    background: #fff;
-    background-image: url(/public/images/background.png);
+  background: #fff;
+  background-image: url(/public/images/background.png);
 }
 
 /**
@@ -27,7 +27,11 @@ body {
   box-sizing: inherit;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Basic styles for links
  */
-

@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  box-shadow: $box-shadow__black;
+  box-shadow: $box-shadow__color--black;
 
   &__img {
     border-radius: 100%;
@@ -27,7 +27,7 @@
     color: black;
     font-size: 5.6rem;
     font-weight: 300;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   &__subtitle {

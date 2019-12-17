@@ -11,4 +11,9 @@ $link__color--primary: #1f74ac;
 $link__color--secondary: #217dbb;
 
 /*Box Shadows */
-$box-shadow__black: 0 .4rem .4rem -0.2rem rgba(0,0,0, .2);
+$box-shadow__color--black: 0 .4rem .4rem -0.2rem rgba(0,0,0, .2);
+$box-shadow__color--alternative: 0 .2rem .4rem 0 rgba(0, 0, 0, 0.15);
+
+/* Buttons Colors */
+$button__color--primary: #1f74ac;
+$button__color--secondary: #217dbb;

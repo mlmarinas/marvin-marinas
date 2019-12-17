@@ -1,5 +1,4 @@
 <template>
-  <!-- Header -->
   <header class="header">
     <img src="/images/headerimg.png" class="header__img" />
     <div class="header__text">

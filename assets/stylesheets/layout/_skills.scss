@@ -1,0 +1,61 @@
+/* Work Section */
+.work {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14rem 0;
+  box-shadow: $box-shadow__color--alternative;
+
+  &__title,
+  &__subtitle {
+    margin-bottom: 2.2rem;
+  }
+
+  &__btn-box {
+    margin-top: 10rem;
+  }
+
+  &__btn {
+    width: 2.5rem;
+  }
+}
+
+/* Grid Container */
+.work-grid {
+  display: grid;
+  margin-top: 3rem;
+  grid-template-columns: repeat(3, 32rem);
+  grid-template-rows: repeat(1, 34rem);
+  grid-gap: 3rem;
+}
+
+/* Cards */
+.work-card {
+  background: white;
+  box-shadow: $box-shadow__color--alternative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 3.2rem 6rem 3.2rem;
+  border-radius: 0.4rem;
+
+  &__title {
+    margin-bottom: 2rem;
+  }
+
+  &__excerpt {
+    text-align: center;
+  }
+}
+
+/* Card Icons */
+.fa-window-alt,
+.fa-paint-brush-alt,
+.fa-crown {
+  font-weight: 400;
+  font-size: 10.3rem;
+  color: $button__color--primary;
+  margin-bottom: 3rem;
+}

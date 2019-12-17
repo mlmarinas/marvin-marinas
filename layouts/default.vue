@@ -1,15 +1,20 @@
 <template>
   <div>
     <TheNav />
-    <nuxt />
+    <Header />
+    <Skills />
   </div>
 </template>
 
 <script>
 import TheNav from './partials/TheNav'
+import Header from './header'
+import Skills from './skills'
 export default {
   components: {
-    TheNav
+    TheNav,
+    Header,
+    Skills
   }
 }
 

@@ -1,5 +1,6 @@
 /* Link Colors*/
 /*Box Shadows */
+/* Buttons Colors */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -479,6 +480,11 @@ body {
           box-sizing: inherit;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /**
  * Basic styles for links
  */
@@ -598,7 +604,7 @@ p {
   color: black;
   font-size: 5.6rem;
   font-weight: 300;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .header__subtitle {
@@ -611,9 +617,13 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 6rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #282828;
   width: 100vw;
 }
@@ -635,5 +645,102 @@ p {
 
 .nav__link:hover, .nav__link:focus {
   color: #217dbb;
+}
+
+/* Work Section */
+.work {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 14rem 0;
+  -webkit-box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.15);
+}
+
+.work__title, .work__subtitle {
+  margin-bottom: 2.2rem;
+}
+
+.work__btn-box {
+  margin-top: 10rem;
+}
+
+.work__btn {
+  width: 2.5rem;
+}
+
+/* Grid Container */
+.work-grid {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 3rem;
+  -ms-grid-columns: (32rem)[3];
+      grid-template-columns: repeat(3, 32rem);
+  -ms-grid-rows: (34rem)[1];
+      grid-template-rows: repeat(1, 34rem);
+  grid-gap: 3rem;
+}
+
+/* Cards */
+.work-card {
+  background: white;
+  -webkit-box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.15);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem 3.2rem 6rem 3.2rem;
+  border-radius: 0.4rem;
+}
+
+.work-card__title {
+  margin-bottom: 2rem;
+}
+
+.work-card__excerpt {
+  text-align: center;
+}
+
+/* Card Icons */
+.fa-window-alt,
+.fa-paint-brush-alt,
+.fa-crown {
+  font-weight: 400;
+  font-size: 10.3rem;
+  color: #1f74ac;
+  margin-bottom: 3rem;
+}
+
+.header__btn:visited, .header__btn:link {
+  color: white;
+  background-color: #1f74ac;
+  padding: 2rem 4rem;
+  width: 100%;
+  border-radius: 1rem;
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header__btn:hover {
+  background-color: #217dbb;
 }
 /*# sourceMappingURL=main.css.map */

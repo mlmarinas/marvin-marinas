@@ -1,3 +1,19 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.header__btn {
+    &:visited,
+    &:link {
+    color: white;
+    background-color: $button__color--primary;
+    padding: 2rem 4rem;
+    width: 100%;
+    border-radius: 1rem;
+    font-size: 2.6rem;
+    font-weight: 600;
+    text-align: center;
+    }
+    &:hover {
+        background-color: $button__color--secondary;
+    }
+}
