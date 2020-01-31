@@ -3,6 +3,7 @@
     <TheNav />
     <Header />
     <Skills />
+    <Portfolio />
   </div>
 </template>
 
@@ -10,12 +11,14 @@
 import TheNav from "@/layouts/partials/TheNav";
 import Header from "@/components/Header";
 import Skills from "@/components/Skills";
+import Portfolio from "@/components/Portfolio";
 
 export default {
   components: {
     TheNav,
     Header,
-    Skills
+    Skills,
+    Portfolio
   }
 };
 </script>
