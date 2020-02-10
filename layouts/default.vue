@@ -91,4 +91,11 @@ $blue--dark: #1f74ac;
     background-color: $blue--light;
   }
 }
+
+path,
+circle,
+rect,
+polygon {
+  fill: #1f74ac;
+}
 </style>

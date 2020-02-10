@@ -121,7 +121,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 0.4rem 0.4rem -0.2rem rgba(0, 0, 0, 0.2);
+  border: 0.1rem solid #e7ebed;
+  border-radius: 0.5rem;
+  &:hover {
+    box-shadow: 0 0.3rem 2rem 0 rgba(84, 110, 122, 0.1);
+    transform: translateY(-0.1rem);
+  }
   &__img {
     width: 100%;
     height: 21rem;
