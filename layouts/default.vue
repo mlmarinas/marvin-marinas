@@ -4,6 +4,7 @@
     <Header />
     <Skills />
     <Portfolio />
+    <Footer />
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import TheNav from "@/layouts/partials/TheNav";
 import Header from "@/components/Header";
 import Skills from "@/components/Skills";
 import Portfolio from "@/components/Portfolio";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
     TheNav,
     Header,
     Skills,
-    Portfolio
+    Portfolio,
+    Footer
   }
 };
 </script>
@@ -37,10 +40,10 @@ html {
 }
 
 body {
-  line-height: 2.5rem;
+  line-height: 1rem;
   color: #444444;
   font-weight: 300;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 b,
@@ -60,10 +63,12 @@ h2 {
 
 h3 {
   font-size: 2.2rem;
+  font-weight: bold;
 }
 
 p {
   font-size: 1.8rem;
+  line-height: 3rem;
 }
 
 a {
@@ -92,6 +97,7 @@ $blue--dark: #1f74ac;
   }
 }
 
+/* SVG Icons */
 path,
 circle,
 rect,

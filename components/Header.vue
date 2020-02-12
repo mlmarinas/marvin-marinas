@@ -8,7 +8,7 @@
         </h1>
         <p class="header__subtitle">
           and I am a
-          <strong>Web Developer</strong>. This is my porfolio where you can view
+          <strong>Web Developer</strong>. This is my portfolio where you can view
           some of my work and get in touch with me.
         </p>
         <div class="header__btn-container">
@@ -49,7 +49,7 @@
     color: black;
     font-size: 5.6rem;
     font-weight: 300;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
   }
   &__subtitle {
     font-size: 2.6rem;
