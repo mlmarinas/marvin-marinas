@@ -8,7 +8,7 @@
         </h1>
         <p class="header__subtitle">
           and I am a
-          <strong>Web Developer</strong>. This is my portfolio where you can view
+          <strong>Web Developer </strong>. This is my portfolio where you can view
           some of my work and get in touch with me.
         </p>
         <div class="header__btn-container">

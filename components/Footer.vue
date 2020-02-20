@@ -36,22 +36,22 @@
     </form>
     <!-- Footer Form Social-->
     <hr class="form__line--top" />
-    <h3 class="form__social-header">You can find us on...</h3>
-    <div class="form__icons">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-        <path
-          d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"
-        />
-      </svg>
-      <i class="fab fa-facebook-square"></i>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-github-square"></i>
+    <h3 class="form__social-header">You can find me on...</h3>
+    <div class="icons">
+      <font-awesome-icon
+        :icon="['fab', 'github-square']"
+        class="icons__btn icons__github"
+      />
+      <font-awesome-icon
+        :icon="['fab', 'twitter-square']"
+        class="icons__btn icons__twitter"
+      />
     </div>
     <hr class="form__line--bottom" />
     <!--Copyright-->
     <ul class="footer__copyright">
       <li>
-        © <a href="http://www.tornadoviral.com">TornadoViral</a>. All rights
+        © <a href="http://www.marvinmarinas.com">marvinmarinas</a>. All rights
         reserved.
       </li>
     </ul>
@@ -176,24 +176,24 @@
     margin-top: 5rem;
     color: white;
   }
-
-  //Social Icons
-  &__icons {
-    margin-bottom: 5rem;
-  }
 }
 
-.fa-twitter-square,
-.fa-facebook-square,
-.fa-linkedin,
-.fa-github-square {
-  font-weight: 400;
-  font-size: 2rem;
-  color: #444444;
-  border-radius: 0.6rem;
-  margin: 2rem 0.5rem 0 0.5rem;
-  &:hover {
-    color: #217dbb;
+//Social Icons
+path,
+circle,
+rect,
+polygon {
+  fill: #444444;
+}
+
+.icons {
+  margin-bottom: 5rem;
+  &__btn {
+    margin-top: 2rem;
+    font-size: 5rem;
+  }
+  &__twitter {
+    margin-left: 1rem;
   }
 }
 
