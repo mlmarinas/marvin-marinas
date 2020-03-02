@@ -198,11 +198,13 @@
   &__btn {
     margin-top: 2rem;
     font-size: 5rem;
-    color: red;
+    color: #444444;
+    &:hover {
+      color: #217dbb;
+    }
   }
   &__twitter {
     margin-left: 1rem;
-    color: blue;
   }
 }
 

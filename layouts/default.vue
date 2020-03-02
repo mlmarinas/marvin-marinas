@@ -97,11 +97,4 @@ $blue--dark: #1f74ac;
   }
 }
 
-/* SVG Icons */
-path,
-circle,
-rect,
-polygon {
-  fill: #1f74ac;
-}
 </style>
