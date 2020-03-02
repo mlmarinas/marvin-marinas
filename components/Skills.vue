@@ -1,5 +1,5 @@
 <template>
-  <section class="skills">
+  <section class="skills" id="skills">
     <h2 class="skills__title"><strong>Here's what I can do.</strong></h2>
     <p class="skills__subtitle">
       If you have any special requests, feel free to contact me.
@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="skills__btn-box">
-      <a href="#" class="btn">
+      <a href="#portfolio" class="btn">
         View some of my work
       </a>
     </div>

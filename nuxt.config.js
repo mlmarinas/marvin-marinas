@@ -48,10 +48,6 @@ export default {
       {
         imports: [
           {
-            set: "@fortawesome/free-solid-svg-icons",
-            icons: ["fas"]
-          },
-          {
             set: "@fortawesome/free-brands-svg-icons",
             icons: ["fab"]
           }
@@ -63,4 +59,9 @@ export default {
   //Tree shaking, you can omit this, but then webpack will include whole package
   build: {
   }
+
 };
+
+
+
+

@@ -1,6 +1,6 @@
 <template>
   <!-- Portfolio -->
-  <section class="portfolio">
+  <section class="portfolio" id="portfolio">
     <h2 class="portfolio__title">
       <strong>Here's some projects that I have worked on.</strong>
     </h2>

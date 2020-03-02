@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Test />
     <TheNav />
     <Header />
     <Skills />
@@ -15,7 +14,6 @@ import Header from "@/components/Header";
 import Skills from "@/components/Skills";
 import Portfolio from "@/components/Portfolio";
 import Footer from "@/components/Footer";
-import Test from "@/pages/test/index";
 
 export default {
   components: {
@@ -23,9 +21,7 @@ export default {
     Header,
     Skills,
     Portfolio,
-    Footer,
-    Test
-
+    Footer
   }
 };
 </script>

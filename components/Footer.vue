@@ -1,9 +1,9 @@
 <template>
   <!-- Footer -->
-  <footer class="footer">
-    <h2 class="footer__title"><strong>Have me make things for you.</strong></h2>
+  <footer class="footer" id="footer">
+    <h2 class="footer__title"><strong>Have questions, comments, or requests?</strong></h2>
     <p class="footer__excerpt">
-      Fill out the form below and let's get in touch!
+      Fill out the form below {{ name }} and let's get in touch!
     </p>
     <!-- Footer Form-->
     <form class="footer__form form" action="#" method="get">
@@ -38,14 +38,18 @@
     <hr class="form__line--top" />
     <h3 class="form__social-header">You can find me on...</h3>
     <div class="icons">
-      <font-awesome-icon
-        :icon="['fab', 'github-square']"
-        class="icons__btn icons__github"
-      />
+      <a href="http://www.github.com/mlmarinas" target="_blank">
+        <font-awesome-icon
+          :icon="['fab', 'github-square']"
+          class="icons__btn icons__github"
+        />
+      </a>
+      <a href="http://www.twitter.com/buffwire" target="_blank">
       <font-awesome-icon
         :icon="['fab', 'twitter-square']"
         class="icons__btn icons__twitter"
       />
+      </a>
     </div>
     <hr class="form__line--bottom" />
     <!--Copyright-->
@@ -63,14 +67,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 1359rem;
   background: #2f2f2f;
-  &__title strong,
+  text-align: center;
+  padding: 14rem 0 1.5rem 0;
+  &__title,
+  strong,
   &__excerpt {
     color: white;
   }
-  text-align: center;
-  padding: 14rem;
   &__title,
   &__excerpt {
     margin-bottom: 2.6rem;
@@ -179,21 +183,26 @@
 }
 
 //Social Icons
-path,
-circle,
-rect,
-polygon {
-  fill: #444444;
-}
+// path,
+// circle,
+// rect,
+// polygon {
+//   fill: #444444;
+//   &:hover {
+//     fill: #217dbb;
+//   }
+// }
 
 .icons {
   margin-bottom: 5rem;
   &__btn {
     margin-top: 2rem;
     font-size: 5rem;
+    color: red;
   }
   &__twitter {
     margin-left: 1rem;
+    color: blue;
   }
 }
 
@@ -215,4 +224,5 @@ polygon {
     }
   }
 }
+
 </style>

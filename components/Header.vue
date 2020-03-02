@@ -12,7 +12,7 @@
           some of my work and get in touch with me.
         </p>
         <div class="header__btn-container">
-          <a href="#" class="btn ">See what I can do</a>
+          <a href="#skills" class="btn ">See what I can do</a>
         </div>
       </div>
     </header>

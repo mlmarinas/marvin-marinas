@@ -2,16 +2,16 @@
   <nav class="nav">
     <ul class="nav__menu">
       <li class="nav__item">
-        <a href="#" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
       </li>
       <li class="nav__item">
-        <a href="#" class="nav__link">Work</a>
+        <a href="#portfolio" class="nav__link">Portfolio</a>
       </li>
       <li class="nav__item">
-        <a href="#" class="nav__link">Portfolio</a>
+        <a href="#footer" class="nav__link">Contact</a>
       </li>
       <li class="nav__item">
-        <a href="#" class="nav__link">Contact</a>
+        <a href="#footer" class="nav__link">Blog</a>
       </li>
     </ul>
   </nav>
