@@ -98,14 +98,12 @@
   &__email,
   &__subject,
   &__message {
-    padding: 0 1.3rem 0 1.3rem;
-    border-radius: 0.8rem;
-    background-color: #282828;
-    border: none;
-    color: #bbb;
+    padding: 1.1rem;
+    border: 0.4rem solid #eeeeee;
+    border-radius: 1rem;
+    min-height: 2rem;
     font-size: 2rem;
-    box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05),
-      0px 1px 0px 0px rgba(255, 255, 255, 0.025);
+    margin-bottom: 2rem;
     &:focus {
       color: #217dbb;
     }
